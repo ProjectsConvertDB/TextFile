@@ -1,2 +1,4 @@
-# TextFile
-Only Outputs
+# Today's Data
+
+1. 최신 인기 데이터
+2. 데이터베이스 맛보기 (단계 구상 중)
