@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            const item = document.getElementById("item").value;
+            //sql 문을 어떤식으로 작성 할지 정해지는 구문 
+            //추가 행에 관한 count 값을 정해주는 것을 name 값을 정해 줘서 names.len
+            ///
+            const text = document.getElementById("hi").value;
+            const text2 = document.getElementById("hi1").value;
+            const text3 = document.getElementById("hi2").value;
+            //list 배열 형태로 만들어서 추가행에 대한 것은 해결 
+             //for(i = 0; )
+            //
+            document.getElementById("value").innerHTML=("create "+text+'('+text2 +" varchar(20),"+text3+" varchar(20)"+');');
+            alert(item);
+        }
+    </script>
+</head>
+<body>
+    <select name="item" id="item">
+        <option value="1">create</option>
+        <option value="2">update</option>
+        <option value="3">delete</option>
+    </select>
+    <input id="hi" type="text"></input>
+    <input id="hi1" type="text"></input>
+    <input id="hi2" type="text"></input>
+    <input id="hi3" type="text"></input>
+    <button type="button" onclick="add()">click</button>
+    <div id="value"></div>
+</body>
+</html>
