@@ -8,7 +8,6 @@
   DBMS : Oracle Database11g Express Edition Release 11.2.0.2.0 (OJDBC8)
   PL : JAVA (JDK-1.8), JSTL, HTML, CSS, JavaScript
   FrameWork : Spring
-
  - 화면설계 및 시나리오, 테이블 구조화 (완)
  - 페이지별 또는 기능별 용어 정리 (완)
  - 프로젝트 생성 및 구조화 작업 ( 패키지, 폴더, 파일) (진행 중)
